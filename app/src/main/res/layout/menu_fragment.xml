@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/top_layer"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/circle_bg"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/profile">
+
+            </ImageView>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/username_prf_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/trafic"
+            android:text="رضا فولادی وندا"
+            android:textColor="@color/Subjects"
+            android:textSize="25dp"></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        android:layoutDirection="rtl"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/setting_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="#00FFFFFF"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:layoutDirection="rtl"
+
+            android:text="تنظیمات"
+            android:textSize="20dp"
+            app:backgroundTint="#00FFFFFF"
+            app:elevation="0dp"
+            app:icon="@drawable/setting"></Button>
+
+        <Button
+            android:id="@+id/rate_btn"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="#00FFFFFF"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:layoutDirection="rtl"
+            android:onClick="onClick"
+            android:text="امتیاز دادن"
+            android:textSize="20dp"
+            app:icon="@drawable/rate_img"></Button>
+
+        <Button
+            android:id="@+id/about_btn"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="#00FFFFFF"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:layoutDirection="rtl"
+            android:onClick="onClick"
+            android:text="درباره ما"
+            android:textSize="20dp"
+            app:icon="@drawable/about"></Button>
+
+        <Button
+            android:id="@+id/share_btn"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="#00FFFFFF"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:layoutDirection="rtl"
+            android:onClick="onClick"
+            android:text="اشتراک گذاری برنامه"
+            android:textSize="20dp"
+            app:icon="@drawable/share"></Button>
+
+        <Button
+            android:id="@+id/res_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="#00FFFFFF"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:layoutDirection="rtl"
+            android:onClick="onClick"
+            android:text="منابع"
+            android:textSize="20dp"
+            app:icon="@drawable/resource"></Button>
+
+    </LinearLayout>
+
+</LinearLayout>

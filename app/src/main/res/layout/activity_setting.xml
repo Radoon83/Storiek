@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Background"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="50dp"
+    tools:context=".SettingActivity">
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/switchTheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:checked="true"
+        android:fontFamily="@font/trafic"
+        android:layoutDirection="rtl"
+        android:text="حالت شب"
+        android:textColor="@color/white"
+        android:textSize="35dp" />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/screenOn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:fontFamily="@font/trafic"
+        android:layoutDirection="rtl"
+        android:paddingVertical="10dp"
+        android:text="بيدار ماندن صفحه"
+        android:textColor="@color/white"
+        android:textSize="35dp" />
+
+
+</LinearLayout>
